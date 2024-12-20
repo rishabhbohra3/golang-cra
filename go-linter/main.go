@@ -6,7 +6,11 @@ import (
 )
 
 func main() {
-    ioutil.ReadFile("random.txt")
+    data, err := ioutil.ReadFile("random.txt")
+    if err != nil {
+        fmt.Printf("Error reading file: %v\n", err)
+        return
+    }
 
     if true == true {
         fmt.Println("Hello world!")
