@@ -12,8 +12,8 @@ func main() {
         return
     }
 
-    if true == true {
-        fmt.Println("Hello world!")
+    if true {
+       fmt.Println("Hello world!")
     }
 
     fmt.Printf("Number: %s\n", "2 is prime number")
