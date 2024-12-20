@@ -25,7 +25,7 @@ func main() {
 
     s1 := "hello"
     s2 := "world"
-    if fmt.Sprintf("%s", s1) == fmt.Sprintf("%s", s2) {
+    if s1 == s2 {
         fmt.Println("Strings are equal")
     }
 
