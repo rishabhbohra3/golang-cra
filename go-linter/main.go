@@ -16,7 +16,7 @@ func main() {
         fmt.Println("Hello world!")
     }
 
-    fmt.Printf("Number: %d\n", "2 is prime number")
+    fmt.Printf("Number: %s\n", "2 is prime number")
 
     x := 2
     fmt.Println(x)
